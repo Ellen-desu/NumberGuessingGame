@@ -93,7 +93,7 @@ document.getElementById("guess").addEventListener("click", () => {
 });
 
 document.getElementById("back").addEventListener("click", () => {
-    location.reload()
+    window.location.href = window.location.href;
 });
 
 
