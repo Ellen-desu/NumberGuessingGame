@@ -1,0 +1,132 @@
+/* HEADER */
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: inherit;
+    padding: .5rem .5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+#social-media {
+    opacity: .9;
+}
+
+main {
+    margin-top: 4rem;
+    background-color: inherit;
+}
+
+/* MAIN SECTION */
+#menu-button-container {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+#play {
+    background-color: #2969f7;
+    color: white;
+}
+
+#source { border: 1px solid #9c9c9c; }
+
+
+/* CONFIGURE SECTION */
+#config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#config-title {
+    margin-bottom: 1rem;
+}
+
+#save {
+    margin-top: 1rem;
+    background-color: #2969f7;
+    color: white;
+}
+
+
+/* IN-GAME SECTION */
+#in-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#in-game-header, #in-game-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+#input-guess {
+    margin-top: .5rem;
+}
+#guess {
+    background-color: #2969f7;
+    margin-top: 1rem;
+    color: white;
+}
+
+
+/* END GAME SECTION */
+#end-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#back {
+    background-color: #2969f7;
+    margin-top: 1rem;
+    color: white;
+}
+
+
+/* CLASS LIST */
+
+.hidden { display: none !important; }
+
+.error {
+    color: red;
+    font-weight: normal;
+}
+.button {
+    display: flex;
+    padding: .4rem 1.5rem;
+    font-weight: bold;
+    border-radius: 9999rem;
+    border: none;
+    background-color: transparent;
+    gap: .5rem;
+    align-items: center;
+}
+
+.input {
+    background-color: #e1e1e1;
+    border: none;
+    padding: .1rem .5rem;
+    border-radius: 9999rem;
+    outline: none;
+    height: 1.5rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    gap: .5rem;
+}
